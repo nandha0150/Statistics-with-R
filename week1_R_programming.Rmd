@@ -1,0 +1,93 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+isTRUE(3>1)
+```
+```{r}
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+c(1,2,3)/c(2,3,3)
+11/5
+2**3
+8**3 +8** - 2**8
+2^3
+512^3 +3*512*8^5
+8**3 == 8^3
+8**3 +8*8 - 2**8
+320^3 +3*320*8^5
+x = -3
+y = sqrt(abs(x^x-x^x^2 - 20*x)) - abs(x^5-x^x)
+z = x^2 + y^3
+z
+25 - 6*9 - 66 -8-48/31*74-4^3*14+180/12*12-7**9/152-76+80+90/100
+25 - 6*9 - 66 -8*48/31*74-4^3*14+180/12*12-7**9/152-76+80+90/100
+(c(3,`,3,`)*c(2,1,1,2))^c(3,1,3,1)*c(2,1,1,2)
+(c(3,1,3,1)*c(2,1,1,2))^c(3,1,3,1)*c(2,1,1,2)
+x1 <- c(144,625,176,256)
+x2 <- sqrt(x1^4)+x1^3/x1^2 - sqrt(x1)**(3/2)-min(x1)/max(x1)
+x2
+x = c(11.2,12.4,9.5,13.6,10.1,15.2,8.5,11.1,9.0,16.7,11.7,12.0,12.3,12.5,8.0,7.5,7.8,8.9,9.9,12.6)
+y = c(45,35,30,25,42,31,41,28,40,30,32,40,38,35,29,36,31,25,28,29
+)
+plot(x,y, "l")
+plot(x,y, "h")
+plot(x,y, "s")
+y = c(45,35,30,25,42,31,41,28,40,30,32,40,38,35,29,36,31,25,28,29)
+y[(y>30)]
+x = c(11.2,12.4,9.5,13.6,10.1,15.2,8.5,11.1,9.0,16.7,11.7,12.0,12.3,12.5,8.0,7.5,7.8,8.9,9.9,12.6)
+x[(x^2 - 5*x > 80)]
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+c(13,10,13,11)*c(12,11,10,12)/c(6,5,5,2)
+x = seq(1,30, by =3)
+sample(x,size=6,replace = TRUE)
+x = seq(1,30, by =3)
+x
+sample(x,size=6,replace = TRUE)
+x
+x[(x>5)]
+x[x>5]
+x>5
+x
+seq(1,20, by=3)
+343/22
+343/22^3
+(3>1)
+
+```
+
+
+
+
